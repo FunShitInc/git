@@ -13,6 +13,7 @@ description: >
 
 # If you clone the Minima repo and build locally, use this setting.
 theme: minima
+remote_theme: pages-themes/hacker@v0.2.0
 
 # As of November 2023, GitHub Pages still uses Minima 2.5.1 (https://pages.github.com/versions/).
 # If you want to use the latest Minima version on GitHub Pages, use the following setting and
@@ -22,6 +23,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # Theme-specific settings
 
